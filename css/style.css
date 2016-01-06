@@ -55,7 +55,7 @@ font-weight: normal;
 
     line-height: 1.5em;
 
-    text-align: centre;
+    text-align: center;
 
 }
 
@@ -65,13 +65,12 @@ font-weight: normal;
 
     h2 {font size: 4.56;}
 
-    h3 {font size: 2.34;}
 
     
 
     header h2 {
 
-        font-style: italic;
+        font-style: bold;
 
         font-size: 1.8em;
 
@@ -161,7 +160,7 @@ font-weight: normal;
 
     
 
-    txt-align: centre;
+    text-align: center;
 
     text-transform: uppercase;
 
