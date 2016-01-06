@@ -30,6 +30,8 @@ article {
     margin-top: 1em;
     }
 
+ /*-----------------------------*/ 
+
 footer {
     font-size: 5em;
     line-height: 2em;
@@ -37,17 +39,6 @@ footer {
     padding-bottom: 1em;
 }
 
-img.align-centre {
-    display: block;
-    margin: 0px auto;
-}
-img.medium{
-    width: 250px;
-    height: 250px;
-}
-
-
- 
 
 
 h1, h2 {
@@ -96,7 +87,7 @@ font-weight: normal;
 
     
 
-    
+ /*-----------------------------*/   
 
     blockquote{
 
@@ -110,21 +101,6 @@ font-weight: normal;
 text-align: center;
     line-height: 1.5em;
 
-    
-
-    
-
-    }
-
-    
-
-    blockquote cite{
-
-    font-size: .75em;
-
-    
-
-    }
 
     
 
@@ -151,43 +127,25 @@ text-align: center;
     /*-----------------NAV-------------*/
 
     
-
-    nav {
-
-    
-
-    border-top: 1px solid #333;
-
-    border-bottom: 1px solid #333;
-
-    }
-
-    
-
-    nav ul {
-
-    
-
-    txt-align: centre;
-
-    text-transform: uppercase;
-
-    letter-spacing: 2px;
-
-    
-
-    }
-
-    
-
-nav ul li {
-
-
-
-
-display: inline;
-
-
-
-
+nav {
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    display: inline;
 }
+    
+    
+nav ul {
+    text-align: center;   
+    }
+    
+
+    nav ul li {
+	display: inline;
+	margin: 2px;
+	text-align: center;
+
+	}
+    
+    li { display: inline;
+    
+    }
