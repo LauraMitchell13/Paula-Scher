@@ -29,14 +29,25 @@ section {padding: 2em 0 2em 0}
 
     /* ----------------TYPOGRAPHY------------------ */
 
+article { 
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    
+    margin-top: 1em;
+    margin-top: 1em;
+
+}
 
 
-
-h1, h2, h3 {
+h1, h2 {
 
 font-weight: normal;
+    
+    font-family: 'Keania One', cursive;
 
-    color; #c06;
+    color; #darkred;
 
     line-height: 1.5em;
 
