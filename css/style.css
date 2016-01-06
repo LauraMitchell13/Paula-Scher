@@ -1,7 +1,22 @@
 body {
+    width: 75%;
+    max-width: 650px;
+    font-size: 100%;
  font-family: 'Keania One', cursive;
+    margin: auto;
+    background-color:aliceblue;
+    line-height: 1.8em;
 }
-h1 {
-color: darkred;}
+
+h1, h2 {
+    font-weight: bold;
+color: darkred;
+line-height: 1.5em;
+text-align: left;
+}
+
+h1 {font-size: 7}
+h2 {font-size: 5}
+
 p {
 color: black;}
