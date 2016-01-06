@@ -4,8 +4,8 @@ body {
     font-size: 100%;
     font-family: 'Raleway', sans-serif
     margin: auto;
-    background-image: url../images/background2.jpg");
-    line-height: 1.8em;
+    background-image: url("images/background3.jpg");
+    line-height: 2em;
 }
 
 section {padding: 2em 0 2em 0}
@@ -17,11 +17,18 @@ h1 {
     font-family: 'Keania One', cursive;
 color: darkred;
 line-height: 1.5em;
-text-align: left;
+text-align: centre;
     border-top: 1.5px solid darkblue;
     border-bottom: 1.5px solid darkblue;
 }
 
+h2 {
+    font-weight: normal;
+    font-family: 'Keania One', cursive;
+    color: darkblue;
+    text-align: centre;
+    
+}
 h1 {font-size: 15}
 h2 {font-size: 5}
 
@@ -29,5 +36,6 @@ p {
     font-weight: normal;
 color: black;
     line-height: normal;
+    text-align: center;
     
 } 
