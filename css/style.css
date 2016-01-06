@@ -10,15 +10,22 @@ body {
 
 section {padding: 2em 0 2em 0}
 
-h1, h2 {
+/*---------------TYPOGRAPHY---------------*/
+
+h1 {
     font-weight: bold;
 color: darkred;
 line-height: 1.5em;
 text-align: left;
+    border-top: 1.5px solid darkblue;
+    border-bottom: 1.5px solid darkblue;
 }
 
-h1 {font-size: 7}
+h1 {font-size: 15}
 h2 {font-size: 5}
 
 p {
-color: black;}
+    font-weight: normal;
+color: black;
+    
+}
