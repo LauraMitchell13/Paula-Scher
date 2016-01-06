@@ -30,6 +30,22 @@ article {
     margin-top: 1em;
     }
 
+footer {
+    font-size: 5em;
+    line-height: 2em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+img.align-centre {
+    display: block;
+    margin: 0px auto;
+}
+img.medium{
+    width: 250px;
+    height: 250px;
+}
+
 
  
 
@@ -50,9 +66,9 @@ font-weight: normal;
 
     
 
-    h1 {font size: 15;}
+    h1 {font size: 15em;}
 
-    h2 {font size: 10;}
+    h2 {font size: 10em;}
 
     
 
