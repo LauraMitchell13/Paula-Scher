@@ -128,14 +128,16 @@ text-align: center;
 
     
 nav {
-        border-top: 1px solid;
-        border-bottom: 1px solid;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
     display: inline;
 }
     
     
 nav ul {
-    text-align: center;   
+    text-align: center; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
     }
     
 
