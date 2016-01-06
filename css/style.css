@@ -1,16 +1,38 @@
+*{
+    padding: 0;
+    margin:0;
+    font-size:100%;
+    line-height: 1em;
+}
+
 body {
-    width: 75%;
-    max-width: 650px;
+    width: 100%;
+    max-width: 700px;
+    min-height: 320px;
     font-size: 100%;
     font-family: 'Raleway', sans-serif
     margin: auto;
-    background-image: url("images/background3.jpg");
-    line-height: 2em;
+    background-image: url(../images/background3.jpg);
+    line-height: 2em;}
+    
+    article { 
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    
+    margin-top: 1em;
+    margin-top: 1em;
+
 }
 
 section {padding: 2em 0 2em 0}
 
-/*---------------TYPOGRAPHY---------------*/
+/*---------------HEADINGS---------------*/
+
+
+    
+
 
 h1 {
     font-weight: bold;
@@ -31,6 +53,8 @@ h2 {
 }
 h1 {font-size: 15}
 h2 {font-size: 5}
+
+
 
 p {
     font-weight: normal;
