@@ -25,7 +25,8 @@ h1 {font-size: 15}
 h2 {font-size: 5}
 
 p {
-    font-weight: normal;
+    font-family: 'Raleway', sans-serif
+        font-weight: normal;
 color: black;
     
-}
+} 
