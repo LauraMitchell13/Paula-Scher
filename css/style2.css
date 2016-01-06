@@ -21,10 +21,13 @@ body {
 line-height: 1.8em;
     background-image: url(../images/background3.jpg);}
 
-    article { background: rgba(255, 255, 255, 0.9);
+article { 
+    background: rgba(255, 255, 255, 0.9);
     width: 100%;
     padding-right: 1.5em;
     padding-left: 1.5em;
+    box-decoration-break: 6px 4px 4px #888888;
+    margin-top: 1em;
     }
 
 
