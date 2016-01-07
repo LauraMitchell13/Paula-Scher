@@ -32,24 +32,25 @@ article {
 
  /*-----------------------------*/ 
 
-
+h1, h2 {
+    font-weight: bold;
+        color: maroon;
+    text-align: center;
+}
 
 
 h1 {
 
-font-weight: bolder;
+
     font-size: 5em;
     float: right;
-    color: darkred;
     font-family: 'Keania One', cursive;
-    color; #darkred;
 margin-left: .5em;
 }
 
 h2 {
     
     font-weight: normal;
-    color: darkred;
     font-size: 3em;
     text-align: left;
     padding-top: 3em;
