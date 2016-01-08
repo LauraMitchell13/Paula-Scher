@@ -176,10 +176,11 @@ blockquote {
     padding: 1em 0 2em 0;
     line-height: 1.2em;
     font-size: 1.30em;
+    text-align: center;
     margin: 0;
-    color: darkorange;
-    border-top: 1px solid orange;
-    border-bottom: 1px solid orange;
+    color: red;
+    border-top: 1px solid #darkred;
+    border-bottom: 1px solid #darkred;
     
     /*------------------TABLET------------------*/
 
