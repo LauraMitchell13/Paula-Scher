@@ -135,16 +135,16 @@ a:link {
 
 /* unvisited link */
 a;link {
-    color: blue;
+    color: darkblue;
     text-transform: uppercase;}
 
 /*visited link */
 a:link{
-    color:blue;
+    color:darkblue;
     text-transform; uppercase; 
     }
 
-.media:hover {
+.media:centre {
     object-position: 0.5;
 }
     
@@ -161,7 +161,7 @@ nav {
 nav ul {
     text-align: center; 
     text-transform: uppercase;
-    color: #darkred;
+    color: darkred;
     letter-spacing: 2px;
     }
     
@@ -182,7 +182,7 @@ blockquote {
     line-height: 1.2em;
     font-size: 1.30em;
     margin: 0;
-    color: red;
+    color: darkred;
     border-top: 1px solid darkred;
     border-bottom: 1px solid darkred;
     text-align: center;
