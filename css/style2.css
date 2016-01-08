@@ -52,6 +52,7 @@ h1 {
     font-size: 3.5em;
     float: right;
     font-family: 'Keania One', cursive;
+    color:darkred;
 margin-left: .5em;
 }
 
@@ -60,9 +61,10 @@ h2 {
     font-weight: normal;
     font-size: 2.5em;
     text-align: left;
-    padding-top: 3em;
-    padding-bottom: 5em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
     font-family: 'Keania One', cursive;
+    border-top: 1xp solid darkblue;
     border-bottom: 1px solid darkblue;
 }
     
@@ -134,7 +136,7 @@ a:link {
 
 /* unvisited link */
 a;link {
-    color: darkorange;
+    color: blue;
     text-transform: uppercase;}
 
 /*visited link */
