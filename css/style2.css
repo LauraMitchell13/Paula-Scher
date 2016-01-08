@@ -87,12 +87,7 @@ max-width:50%
     max-height: 70%;
 }
 
-.background2 {
-    float: right;
-    max-height: 100%;
-    margin-top: .7em;
-    margin-left: .7em;
-    box-shadow: 8px 8px 5px #888888;
+.background2 
     
 
     .intro {
@@ -145,10 +140,6 @@ a:link{
     color:darkblue;
     text-transform; uppercase; 
     }
-
-.media:centre {
-    object-position: 0.5;
-}
     
     
 nav {
