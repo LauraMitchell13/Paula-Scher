@@ -51,9 +51,9 @@ h1 {
 
     font-size: 3.5em;
     float: right;
+    margin-bottom: 1em;
     font-family: 'Keania One', cursive;
     color:darkred;
-margin-left: .5em;
 }
 
 h2 {
@@ -62,9 +62,8 @@ h2 {
     font-size: 2.5em;
     text-align: left;
     padding-top: 0.8em;
-    padding-bottom: 0.8em;
+    padding-bottom: 0.5em;
     font-family: 'Keania One', cursive;
-    border-top: 1xp solid darkblue;
     border-bottom: 1px solid darkblue;
 }
     
@@ -79,7 +78,7 @@ max-width:50%
 
 .map {
     max-width: 45%;
-        box-shadow: 8px 8px 5px #8888888;
+        box-shadow: 8px 8px 5px #888888;
     
 }
 
@@ -140,16 +139,22 @@ a;link {
     text-transform: uppercase;}
 
 /*visited link */
-a;link{
-    color:purple;
+a:link{
+    color:blue;
     text-transform; uppercase; 
     }
+
+.media:hover {
+    object-position: 0.5;
+}
     
     
 nav {
         border-top: 1px solid #333;
         border-bottom: 1px solid #333;
-    display: inline;
+    padding-bottom: 0.7em;
+    padding-top: 0.7em;
+    width 100%;
 }
     
     
@@ -173,14 +178,22 @@ nav ul {
     }
 
 blockquote {
-    padding: 1em 0 2em 0;
+    padding: 2em 0 2em 0;
     line-height: 1.2em;
     font-size: 1.30em;
-    text-align: center;
     margin: 0;
     color: red;
-    border-top: 1px solid #darkred;
-    border-bottom: 1px solid #darkred;
+    border-top: 1px solid darkred;
+    border-bottom: 1px solid darkred;
+    text-align: center;
+}
+    
+    p{
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        padding-left: 0.5em;
+        line-height: 1.5em;
+    }
     
     /*------------------TABLET------------------*/
 
