@@ -11,4 +11,6 @@ Paula-Scher
 
 - [Version 5](https://LauraMitchell13.github.io/Paula-Scher/version5.html)
 
+- [Version 6](https://LauraMitchell13.github.io/Paula-Scher/version6.html)
+
 
