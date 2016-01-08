@@ -18,6 +18,7 @@ body {
         font-family: 'Raleway', monospace;
 
         margin: auto;
+    color:black;
 line-height: 1.8em;
     background-image: url(../images/background3.jpg);}
 
@@ -32,9 +33,15 @@ article {
 
  /*--------------TYPOGRAPHY---------------*/ 
 
+footer {
+    font-size: 5em;
+    line-height: 2em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
 h1, h2 {
     font-weight: bold;
-        color:maroon;
     text-align: center;
 }
 
@@ -65,12 +72,12 @@ max-width:50%
 
 .paulascher {
     max-width: 45%;
-        box-shadow: 8px 8px 5px #777777;
+        box-shadow: 8px 8px 5px #888888;
 }
 
 .map {
     max-width: 45%;
-        box-shadow: 8px 8px 5px #777777;
+        box-shadow: 8px 8px 5px #8888888;
     
 }
 
@@ -92,31 +99,10 @@ max-width:50%
     line-height: 1.9em;
 
     padding: 2em 0 2em 0}
-
-    
-
- /*-----------------------------*/   
-
-a:link {
-    text-decoration: none;
-    letter-spacing: 2px;
-    text-transform: lowercase;
-}
-
-blockquote {
-    padding: 1em 0 2em 0;
-    line-height: 1.2em;
-    font-size: 1.30em;
-    margin: 0;
-    color: darkorange;
-    border-top: 1px solid orange;
-    border-bottom: 1px solid orange;
    
 
 
-    
 
-    /* -------------LINKS ----------*/
 
     
 
@@ -138,6 +124,25 @@ blockquote {
 
     /*-----------------NAV-------------*/
 
+
+
+a:link { 
+    text-decoration:none;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+}
+
+/* unvisited link */
+a;link {
+    color: darkorange;
+    text-transform: uppercase;}
+
+/*visited link */
+a;link{
+    color:purple;
+    text-transform; uppercase; 
+    }
+    
     
 nav {
         border-top: 1px solid #333;
@@ -163,4 +168,61 @@ nav ul {
     
     li { display: inline;
     
+    }
+
+blockquote {
+    padding: 1em 0 2em 0;
+    line-height: 1.2em;
+    font-size: 1.30em;
+    margin: 0;
+    color: darkorange;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    
+    /*------------------TABLET------------------*/
+
+@media (max-width: 50em) {
+    
+    body{
+        background:#f0f0f0;
+    }
+    
+    article{
+        width: 95%;
+        padding: 0.5em;
+    }
+
+    img {
+        display: block;
+        margin 1em auto;
+        padding: 0;
+        max-width: 100%;   
+    }
+}
+    
+    /*-----------------SMARTPHONE-----------------*/
+    
+    @media (max-width: 30em){
+        
+        body{
+            margin: auto 0;
+            background: #f0f0f0;
+            widh: 100%;
+            font-size: 110%;
+        }
+        
+        article{
+            width: 90%
+        }
+        
+        h1{font-sie:2.9em}
+        
+        h2 {font-size: 1.5em;
+        padding-top: 0.5em}
+        
+        blockquote{margin: 0;
+        line-height: 1.5em;}
+        
+        nav ul li {font-size: .75em;
+        margin: 10px}   
     }
